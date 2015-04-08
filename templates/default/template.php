@@ -5,9 +5,9 @@
 </head>
 <body>
 	<div class="wrapper">
-		<div class="header">MyCMS</div>
+		<div class="header"><?php $this->widgetOutput('logoPosition');?></div>
 		<div class='clear'></div>
-		<div class="sidebar">Di sini letak teks bagian sisi halaman web<br><br></div>
+		<div class="sidebar"><?php $this->widgetOutput('sidebarPosition');?></div>
 		<div class='content'><?php echo $this->appOutput();?></div>
 		<div class='clear'></div>
 		<div class="footer"> Teks bagian FOOTER</div>
